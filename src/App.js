@@ -5,12 +5,7 @@ function App() {
   return (
     <div 
       className="App" 
-      style={{ 
-        backgroundImage: 'url(/background_image.png)',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
-      }}
+      style={{ backgroundImage: 'url(/background_image.png)' }}
     >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -31,4 +26,3 @@ function App() {
 }
 
 export default App;
-
