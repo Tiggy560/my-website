@@ -3,7 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div 
+      className="App" 
+      style={{ 
+        backgroundImage: 'url(/background_image.png)',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+      }}
+    >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,3 +31,4 @@ function App() {
 }
 
 export default App;
+
