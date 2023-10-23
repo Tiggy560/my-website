@@ -5,7 +5,12 @@ function App() {
     <div className="App" style={{ backgroundImage: 'url(/background_image.png)' }}>
       <div className="App-header-white">Hey, I'm Will</div>
 
-      <img src="/_GSB_Photo_Circular.png" alt="Profile" className="centered-photo" />
+      <div className="photo-text-wrapper">
+        <img src="/_GSB_Photo_Circular.png" alt="Profile" className="centered-photo" />
+        <div className="big-text">
+          I’m building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>, a Web3 marketing automation platform
+        </div>
+      </div>
 
       <div className="content">
 
