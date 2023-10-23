@@ -17,20 +17,63 @@
   }
 }
 
-.App-header {
-  background-color: rgba(40, 44, 52, 0.8);
-  min-height: 100vh;
+
+
+
+.App-header-white {
+  background-color: white;   /* White background color */
+  height: 60px;              /* Adjust the height as needed */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;       /* Vertically center the content */
+  justify-content: center;   /* Horizontally center the content */
+  width: 100%;               /* Take full width of the parent */
+  position: fixed;           /* Make it stick to the top */
+  top: 0;                    /* Align it to the top */
+  left: 0;                   /* Align it to the left */
+  z-index: 1000;             /* Ensure it's above other content */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  /* Optional shadow for depth */
 }
 
-.App-link {
-  color: #61dafb;
+.centered-photo {
+  display: block;       /* Makes the image a block element */
+  margin: 100px auto;   /* 100px from top and auto on the sides centers the image */
+  width: 150px;         /* Adjust width as needed */
+  height: auto;         /* Maintains the aspect ratio */
 }
+
+.big-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section {
+  margin-top: 40px;
+  text-align: left;
+  padding: 0 20px; /* Some padding to ensure text isn't too close to the edges */
+}
+
+.section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 40px; /* Indentation for the list */
+}
+
+.section a {
+  color: #61dafb; /* Color for the hyperlinks */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.section a:hover {
+  text-decoration: underline; /* Add underline when hovered */
+}
+
 
 @keyframes App-logo-spin {
   from {
