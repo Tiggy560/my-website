@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App" style={{ backgroundImage: 'url(/background_image.png)' }}>
-      <div className="App-header-white">My Website</div>
+      <div className="App-header-white">Hey, I'm Will</div>
 
       <img src="/_GSB_Photo_Circular.png" alt="Profile" className="centered-photo" />
 
