@@ -6,12 +6,6 @@
   min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header-white {
   background-color: white;
   height: 60px;
@@ -29,7 +23,7 @@
 .centered-photo {
   margin-left: 70px;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 70px;
   width: 300px; /* Increased the size */
   height: auto;
   object-fit: contain; /* To make sure it's completely visible */
@@ -45,7 +39,8 @@
 }
 
 .content {
-  max-width: 70%;
+  max-width: 80ch;
+  margin: 0 auto; /* Center the content */
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Aligns items to the start */
@@ -64,7 +59,8 @@
   }
 
   .centered-photo {
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
   }
 
@@ -112,11 +108,3 @@
   text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
