@@ -1,33 +1,35 @@
 .App {
-  padding-top: 20px; /* Added space above the header */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px; /* Added space above the content */
   min-height: 100vh;
 }
 
-header {
-  text-align: center;
-  font-size: 24px; /* Adjust the font size as needed */
-  font-weight: bold;
-  margin-bottom: 20px; /* Space between header and content */
-}
-
 .content {
-  max-width: 70ch;
-  margin: 0 auto; /* Centers the content */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Aligns items to the start */
+  max-width: 50ch;
+  margin: 0 auto; /* Centers the content horizontally */
+  width: 100%; /* Ensures the content fills the container */
 }
 
 .section {
   margin-top: 40px;
-  text-align: left;
-  padding: 0 20px;
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+.section h1, .section h2 {
+  font-weight: bold;
+}
+
+.section h1 {
+  font-size: 24px; /* Size for main heading */
+  margin-bottom: 20px; /* Space between header and content */
 }
 
 .section h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  font-size: 20px; /* Size for subheadings */
+  margin-bottom: 20px; /* Space between subheadings and content */
 }
 
 .section ul {
