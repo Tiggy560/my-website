@@ -1,85 +1,21 @@
 .App {
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  padding-top: 20px; /* Added space above the header */
   min-height: 100vh;
 }
 
-.App-header-white {
-  background-color: white;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.centered-photo {
-  margin-left: 70px;
-  margin-top: 20px;
-  margin-right: 70px;
-  width: 300px; /* Increased the size */
-  height: auto;
-  object-fit: contain; /* To make sure it's completely visible */
-}
-
-
-.content-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 20px;
+header {
+  text-align: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 20px; /* Space between header and content */
 }
 
 .content {
-  max-width: 80ch;
-  margin: 0 auto; /* Center the content */
+  max-width: 70ch;
+  margin: 0 auto; /* Centers the content */
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Aligns items to the start */
-}
-
-
-.photo-text-wrapper {
-  display: flex;
-  align-items: flex-start; /* Aligns items to the top */
-  margin-top: 80px; /* Added margin to move below the header */
-}
-
-@media (max-width: 768px) {
-  .content-container {
-    flex-direction: column;
-  }
-
-  .centered-photo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-
-  .content {
-    max-width: 100%;
-  }
-
-  .photo-text-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-}
-
-.big-text {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
 }
 
 .section {
@@ -107,4 +43,3 @@
 .section a:hover {
   text-decoration: underline;
 }
-
