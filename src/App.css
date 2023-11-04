@@ -13,6 +13,11 @@
   width: 50%; /* Ensures the content fills the container */
 }
 
+.header {
+  margin-top: 10px;
+  text-align: left; /* Ensures text is left-aligned */
+}
+
 .section {
   margin-top: 40px;
   text-align: left; /* Ensures text is left-aligned */
