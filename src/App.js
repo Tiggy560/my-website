@@ -3,23 +3,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>
-        Will McTighe
-      </header>
       <main>
-        <div className="content">
-          <div>
-            Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>, a Web3 Marketing Platform.
-          </div>
-          <div>
-            Excited by Frontier Technology.
-          </div>
-          <div>
-            Documenting my startup journey here.
-          </div>
-          <div>
-            Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>
-          </div>
+        <div className="section">
+          <h1>Will McTighe</h1>
+          <ul>
+            <div>
+              Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>.
+            </div>
+            <div>
+              Documenting my startup journey here.
+            </div>
+            <div>
+              Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>
+            </div>
+          </ul>
           <hr />
           <div className="section">
             <h2>Web3 stuff:</h2>
