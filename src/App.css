@@ -10,7 +10,7 @@
 .content {
   max-width: 50ch;
   margin: 0 auto; /* Centers the content horizontally */
-  width: 100%; /* Ensures the content fills the container */
+  width: 50%; /* Ensures the content fills the container */
 }
 
 .section {
