@@ -32,8 +32,8 @@ function App() {
             <h2>The CV:</h2>
             <ul>
               <li>Did my MBA at Stanford</li>
-              <li>Growth Investor in technology companies at <a href="https://www.vitruvianpartners.com/">Vitruvian Partners</a> (2 years)</li>
-              <li>Investment Banking at <a href="https://www.goldmansachs.com/">Goldman Sachs</a> (3 years)</li>
+              <li>Growth Investor in technology companies at <a href="https://www.vitruvianpartners.com/">Vitruvian Partners</a></li>
+              <li>Investment Banking at <a href="https://www.goldmansachs.com/">Goldman Sachs</a></li>
               <li>Mathematical Economics and some Philosophy at University of Warwick (UK)</li>
             </ul>
           </div>
