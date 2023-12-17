@@ -8,6 +8,7 @@ function App() {
         <div className="header">
           <h1>Will McTighe</h1>
           <ul>
+            
             <div>
               Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>.
             </div>
@@ -20,17 +21,19 @@ function App() {
           </ul>
           <hr />
           <div className="section">
-            <h2>Web3 stuff:</h2>
+            <h2>Crypto:</h2>
             <ul>
-              <li><a href="https://www.web3analytic.xyz/">Web3 Analytic</a> - a marketing platform for Web3 projects</li>
-              <li>How to Build a DeFi Order Book [<a href="https://github.com/pareto-xyz/pareto-order-book-whitepaper/blob/main/how_to_orderbook.pdf">whitepaper</a>] </li>
-              <li>DeFi options vault using RMMs [<a href="https://github.com/pareto-xyz/pareto-theta-vault-whitepaper/blob/main/whitepaper.pdf">whitepaper</a>] </li>
-              <li>New family of AMM invariants [<a href="https://arxiv.org/abs/2205.07452">whitepaper</a>] [<a href="https://www.smartcontractresearch.org/t/research-summary-constant-power-root-market-makers/1698">scrf</a>]</li>
+              <li>Now building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a> - a marketing platform for Web3 projects</li>
+              <li>Co-authored several DeFi papers on:
+                  How to build a <a href="https://github.com/pareto-xyz/pareto-order-book-whitepaper/blob/main/how_to_orderbook.pdf">DeFi Order Book</a>,  
+                  how to use a special type of AMM to <a href="https://github.com/pareto-xyz/pareto-theta-vault-whitepaper/blob/main/whitepaper.pdf">build a DeFi options vault</a>,
+                  and a <a href="https://arxiv.org/abs/2205.07452">new family of AMM curves</a>
+              </li>
               <li><a href="https://tutela.xyz/">Tutela</a>, a blockchain anonymity assessment tool [<a href="https://arxiv.org/abs/2201.06811">whitepaper</a>] [<a href="https://golem.foundation/2022/02/07/interview-Tutela.html">press</a>]</li>
             </ul>
           </div>
           <div className="section">
-            <h2>The CV:</h2>
+            <h2>My journey getting here:</h2>
             <ul>
               <li>Did my MBA at Stanford</li>
               <li>Growth Investor in technology companies at <a href="https://www.vitruvianpartners.com/">Vitruvian Partners</a></li>
