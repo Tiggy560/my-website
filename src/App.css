@@ -7,7 +7,7 @@
 }
 
 .content {
-  line-height: 1.6;
+  line-height: 1.2;
   max-width: 70ch;
   margin: 0 auto; /* Centers the content horizontally */
   width: 70%; /* Ensures the content fills the container */

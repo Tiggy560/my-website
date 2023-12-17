@@ -29,7 +29,7 @@ function App() {
                   how to use a special type of AMM to <a href="https://github.com/pareto-xyz/pareto-theta-vault-whitepaper/blob/main/whitepaper.pdf">build a DeFi options vault</a>,
                   and a <a href="https://arxiv.org/abs/2205.07452">new family of AMM curves</a>
               </li>
-              <li><a href="https://tutela.xyz/">Tutela</a>, a blockchain anonymity assessment tool [<a href="https://arxiv.org/abs/2201.06811">whitepaper</a>] [<a href="https://golem.foundation/2022/02/07/interview-Tutela.html">press</a>]</li>
+              <li>Built <a href="https://tutela.xyz/">Tutela</a>, a blockchain anonymity assessment tool [<a href="https://arxiv.org/abs/2201.06811">whitepaper</a>] [<a href="https://golem.foundation/2022/02/07/interview-Tutela.html">press</a>]</li>
             </ul>
           </div>
           <div className="section">
