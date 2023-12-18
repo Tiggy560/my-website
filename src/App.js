@@ -23,9 +23,9 @@ function App() {
               <li>
                   Co-authored several DeFi papers on:
                   <ul>
-                    <li>How to build an Order Book in DeFi [<a href="https://github.com/pareto-xyz/pareto-order-book-whitepaper/blob/main/how_to_orderbook.pdf">Whitepaper</a>]</li>
-                    <li>How to use a special type of AMM to build a DeFi Options Vault [<a href="https://github.com/pareto-xyz/pareto-theta-vault-whitepaper/blob/main/whitepaper.pdf">Whitepaper</a>]</li>
-                    <li>A new family of AMM curves [<a href="https://arxiv.org/abs/2205.07452">Whitepaper</a>]</li>
+                    <li>How to build an Order Book in DeFi [<a href="https://github.com/pareto-xyz/pareto-order-book-whitepaper/blob/main/how_to_orderbook.pdf">whitepaper</a>]</li>
+                    <li>How to use a special type of AMM to build a DeFi Options Vault [<a href="https://github.com/pareto-xyz/pareto-theta-vault-whitepaper/blob/main/whitepaper.pdf">whitepaper</a>]</li>
+                    <li>A new family of AMM curves [<a href="https://arxiv.org/abs/2205.07452">whitepaper</a>]</li>
                   </ul>
                 </li>
               <li>With a couple of friends at Stanford, we built <a href="https://tutela.xyz/">Tutela</a>, a blockchain anonymity assessment tool [<a href="https://arxiv.org/abs/2201.06811">whitepaper</a>] [<a href="https://golem.foundation/2022/02/07/interview-Tutela.html">press</a>]</li>
