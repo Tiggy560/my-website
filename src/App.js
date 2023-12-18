@@ -12,7 +12,7 @@ function App() {
               Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a> and documenting it here.
             </div>
             <div>
-              Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>, will [at] paretolabs.xyz
+              Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>, will[at]paretolabs.xyz
             </div>
           </ul>
           <hr />
