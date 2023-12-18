@@ -9,13 +9,10 @@ function App() {
           <h1>Will McTighe</h1>
           <ul>
             <div>
-              Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>.
+              Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a> and documenting it here.
             </div>
             <div>
-              Documenting my startup journey here.
-            </div>
-            <div>
-              Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>
+              Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>, will [at] paretolabs.xyz
             </div>
           </ul>
           <hr />
@@ -37,10 +34,11 @@ function App() {
           <div className="section">
             <h2>My journey getting here:</h2>
             <ul>
-              <li>Did my MBA at Stanford</li>
-              <li>Growth Investor in technology companies at <a href="https://www.vitruvianpartners.com/">Vitruvian Partners</a></li>
-              <li>Investment Banking at <a href="https://www.goldmansachs.com/">Goldman Sachs</a></li>
-              <li>Mathematical Economics and some Philosophy at University of Warwick (UK)</li>
+              <li>Born in the UK, I grew up moving all over as a young kid - 11 houses across 3 continents by the age of 7.</li>
+              <li>I studied Mathematical Economics and Philosophy and when I graduated, I had a lot of energy and a desire to do hard things but not that much direction so ended up in Finance.</li>
+              <li>After 5 years working in Banking (<a href="https://www.goldmansachs.com/">Goldman Sachs</a>) and tech investing (<a href="https://www.vitruvianpartners.com/">Vitruvian Partners</a>), I knew that I wanted to come to the US and build companies.</li>
+              <li>I got into Stanford to do a MBA and co-founded <a href="https://www.web3analytic.xyz/">Web3 Analytic</a>, when I finished in mid-2022.</li>
+              <li>More on company building journey later!</li>
             </ul>
           </div>
           </div>
