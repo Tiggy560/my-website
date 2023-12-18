@@ -43,12 +43,8 @@
 }
 
 .section a {
-  color: #800080; /* Purple */
+  color: #0074D9; /* Blue */
   text-decoration: none;
-}
-
-.section a:hover {
-  text-decoration: underline;
 }
 
 .section li {
