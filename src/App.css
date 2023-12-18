@@ -6,6 +6,11 @@
   min-height: 100vh;
 }
 
+.header a {
+  color: #0074D9; /* Blue */
+  text-decoration: none;
+}
+
 .content {
   line-height: 1.2;
   max-width: 70ch;
