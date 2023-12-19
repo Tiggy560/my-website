@@ -8,12 +8,12 @@ function App() {
         <div className="header">
           <h1>Will McTighe</h1>
           <ul>
-            <div>
+            <li>
               Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a> and documenting it here.
-            </div>
-            <div>
+            </li>
+            <li>
               Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>, will[at]paretolabs.xyz
-            </div>
+            </li>
           </ul>
           <hr />
           <div className="section">
