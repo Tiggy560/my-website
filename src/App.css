@@ -11,6 +11,11 @@
   text-decoration: none;
 }
 
+.header div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .content {
   line-height: 1.2;
   max-width: 70ch;
