@@ -1,0 +1,30 @@
+.StartupJourney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; /* Added space above the content */
+    min-height: 100vh;
+  }
+
+  .header {
+    margin-top: 10px;
+    text-align: left; /* Ensures text is left-aligned */
+  }
+  
+  .header a {
+    color: #0074D9; /* Blue */
+    text-decoration: none;
+  }
+
+  
+  .content {
+    line-height: 1.2;
+    max-width: 70ch;
+    margin: 0 auto; /* Centers the content horizontally */
+    width: 70%; /* Ensures the content fills the container */
+  }
+  
+  .content li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
