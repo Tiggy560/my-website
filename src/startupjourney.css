@@ -28,3 +28,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .published-date {
+    color: #333; /* Dark grey */
+    font-size: 0.8em; /* Smaller text */
+  }

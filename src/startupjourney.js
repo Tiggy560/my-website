@@ -1,5 +1,8 @@
 import React from 'react';
 import './startupjourney.css';
+import moment from 'moment';
+
+const publishedDate = moment('2023-12-19').format('MMMM Do YYYY');
 
 function StartupJourney() {
   return (
@@ -47,8 +50,12 @@ function StartupJourney() {
                         <li>Choose your business model wisely. Crypto SaaS is hard - there are not many Web3 companies and when market activity grows 10x, the number of potential customers does not, so if you are selling a SaaS product and want to build a venture scale business, the contract sizes need to be large (e.g. $100k+), everyone needs to use your product (i.e. Horizontal SaaS) or sell to Web2 entities (e.g. Chainalysis, TRM Labs). Volume-based business models (e.g. CEXs, DEXs, Lending Protocols, RPCs) have more upside.</li>
                         <li>When navigating the idea maze, make decisions that solve user needs AND connect with your vision</li>
                     </ul>
-        </div>
-        </div>
+            </div>
+            <div className="published-date">
+                <p>First Published: {publishedDate}</p>
+            </div>
+            </div>
+
       </main>
     </div>
   );
