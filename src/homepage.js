@@ -7,9 +7,12 @@ function HomePage() {
     <div className="App">
       <main>
         <div className="content">
-        <div className="header">
-          <h1>Will McTighe</h1>
+          <div className="header">
+          
+          <div className="subheader">
+          <img src={process.env.PUBLIC_URL + '/will.png'} alt="Will McTighe" className="photo" />
           <ul>
+            <h2>Will McTighe</h2>
             <div>
               Building <a href="https://www.web3analytic.xyz/">Web3 Analytic</a> and documenting it <Link to="/startup-journey">here</Link>.
             </div>
@@ -17,6 +20,7 @@ function HomePage() {
               Contact: <a href="https://twitter.com/WillMcTighe">Twitter</a>, will[at]paretolabs.xyz
             </div>
           </ul>
+          </div>
           <hr />
           <div className="section">
             <h2>Crypto:</h2>

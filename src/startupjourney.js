@@ -48,7 +48,7 @@ function StartupJourney() {
                         <li>Build faster MVPs - don’t spend 6 months building before launching if possible</li>
                         <li>Market potential and how you’ll capture it REALLY matters.</li>
                         <li>Choose your business model wisely. Crypto SaaS is hard - there are not many Web3 companies and when market activity grows 10x, the number of potential customers does not, so if you are selling a SaaS product and want to build a venture scale business, the contract sizes need to be large (e.g. $100k+), everyone needs to use your product (i.e. Horizontal SaaS) or sell to Web2 entities (e.g. Chainalysis, TRM Labs). Volume-based business models (e.g. CEXs, DEXs, Lending Protocols, RPCs) have more upside.</li>
-                        <li>When navigating the idea maze, make decisions that solve user needs AND connect with your vision</li>
+                        <li>When navigating the idea maze, make decisions that solve user needs AND connect with your vision.</li>
                     </ul>
             </div>
             <div className="published-date">
